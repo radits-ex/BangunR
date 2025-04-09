@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangun Ruang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--  -->
+    <div class="kon-welcome">
+        <h1 class="h1-wc">Selamat Datang Di Kumpulan Rumus Volume Bangun Ruang</h1>
+    </div>
+    <!--  -->
+
+    <!-- Katagori Ruang -->
+    <section id="Ruangs">
+        <h2>Pilih Bangun Ruang!</h2>
+        <div class="services">
+            <div class="kon-ruang">
+                <p>KUBUS</p>
+                <p>V Kubus = S(Sisi)×S(Sisi)×S(Sisi)</p>
+                <input type="number" id="skubus" placeholder="Panjang sisi">
+                <button onclick="hasilkubus()">Hasil</button>
+                <p class="hasil" id="hslkubus"></p>
+            </div>
+            <div class="kon-ruang">
+                <p>BALOK</p>
+                <p>V Balok = P(Panjang)×L(Lebar)×T(Tinggi)</p>
+                <input type="number" id="pbalok" placeholder="Panjang">
+                <input type="number" id="lbalok" placeholder="Lebar">
+                <input type="number" id="tbalok" placeholder="Tinggi">
+                <button onclick="hasilbalok()">Hasil</button>
+                <p class="hasil" id="hslbalok">disini</p>
+            </div>
+            <div class="kon-ruang">
+                <p>TABUNG</p>
+                <p>V Tabung = π×R²(jari²)×T(Tinggi)</p>
+                <input type="number" id="jtabung" placeholder="jari²">
+                <input type="number" id="ttabung" placeholder="Tinggi">
+                <button onclick="hasiltabung()">Hasil</button>
+                <p class="hasil" id="hsltabung">disini</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <div class="kon-foot">
+        <ul class="p-foot">Design By Tio</ul>
+    </div>
+    <!--  -->
+    <script src="rumus.js"></script>
+</body>
+
+</html>
