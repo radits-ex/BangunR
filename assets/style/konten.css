@@ -163,7 +163,11 @@ button:hover {
     .navigasi>li{
         padding: 5px;
     }
-
+    
+    .kon-welcome {
+        width: 0;    
+    }
+    
     body {
      width: 100vh;   
     }
