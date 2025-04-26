@@ -117,3 +117,9 @@
     font-weight: bold;
     color: #6c63ff;
   }
+
+@media(max-width:900px) {
+    .login-box {
+      margin: 5px;
+    }
+  }
