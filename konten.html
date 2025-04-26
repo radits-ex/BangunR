@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangun Ruang</title>
+    <link rel="shortcut icon" href="assets/logo/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/konten.css">
+</head>
+
+<body>
+    
+    <!-- nav -->
+    <nav>
+        <div class="brand">
+            <div class="first">Bangun</div>
+            <div class="last">R</div>
+        </div>
+        <ul class="navigasi">
+            <li><a href="konten.html">Home</a></li>
+            <li><a href="#Ruangs">Konten</a></li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+    </nav>
+    <!-- nav end -->
+
+    <!--  -->
+    <div class="kon-welcome">
+        <h1 class="h1-wc">Selamat Datang Di Kumpulan Rumus Volume Bangun Ruang</h1>
+    </div>
+    <!--  -->
+    
+    <!-- Katagori Ruang -->
+    <section id="Ruangs">
+        <h2>Pilih Bangun Ruang!</h2>
+        <div class="services">
+            <div class="kon-ruang">
+                <p>KUBUS</p>
+                <p>V Kubus = S×S×S</p>
+                <input type="number" id="skubus" placeholder="Panjang sisi">
+                <button onclick="hasilkubus()">Hasil</button>
+                <p class="hasil" id="hslkubus"></p>
+            </div>
+            <div class="kon-ruang">
+                <p>BALOK</p>
+                <p>V Balok = P×L×T</p>
+                <input type="number" id="pbalok" placeholder="Panjang">
+                <input type="number" id="lbalok" placeholder="Lebar">
+                <input type="number" id="tbalok" placeholder="Tinggi">
+                <button onclick="hasilbalok()">Hasil</button>
+                <p class="hasil" id="hslbalok">disini</p>
+            </div>
+            <div class="kon-ruang">
+                <p>TABUNG</p>
+                <p>V Tabung = π×R²×T</p>
+                <input type="number" id="jtabung" placeholder="jari²">
+                <input type="number" id="ttabung" placeholder="Tinggi">
+                <button onclick="hasiltabung()">Hasil</button>
+                <p class="hasil" id="hsltabung">disini</p>
+            </div>
+            <div class="kon-ruang">
+                <p>PRISMA</p>
+                <p>V Prisma = 1/2×As×Ts×Tp</p>
+                <input type="number" id="aprisma" placeholder="Alas segitiga">
+                <input type="number" id="tsegitiga" placeholder="Tinggi segitiga">
+                <input type="number" id="tprisma" placeholder="Tinggi prisma">
+
+                <button onclick="hasilprisma()">Hasil</button>
+                <p class="hasil" id="hslprisma">disini</p>
+            </div>
+            <div class="kon-ruang">
+                <p>KERUCUT</p>
+                <p>V Kerucut = 1/3×π×R²×T</p>
+                <input type="number" id="jkerucut" placeholder="jari² kerucut">
+                <input type="number" id="tkerucut" placeholder="Tinggi kerucut">
+                <button onclick="hasilkerucut()">Hasil</button>
+                <p class="hasil" id="hslkerucut">disini</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <div class="kon-foot">
+        <ul class="p-foot">Design By @Raditi0_</ul>
+    </div>
+    <!--  -->
+    <script src="assets/script/konten.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(135deg, #00c9ff, #92fe9d, #f72585);
+    background-size: 300% 300%;
+    animation: gradientBG 10s ease infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .login-box {
+    background-color: white;
+    width: 300px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .input-group {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .input-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .input-group input:focus {
+    border-color: #6c63ff;
+  }
+
+  .forgot {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .forgot a {
+    text-decoration: none;
+    color: silver;
+  }
+
+  .forgot a:hover {
+    color: aqua;
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00c6ff, #ff00cc);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+
+  .login-btn:hover {
+    transform: scale(1.02);
+  }
+
+  .social-login {
+    margin-bottom: 20px;
+  }
+
+  .social-login p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .signup {
+    font-size: 13px;
+  }
+
+  .signup a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6c63ff;
+  }
+
+  @media(max-width:900px) {
+    .login-box {
+      margin: 5px;
+    }
+  }
