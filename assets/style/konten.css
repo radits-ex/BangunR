@@ -164,5 +164,8 @@ button:hover {
         padding: 5px;
     }
 
+    body {
+     width: 100vh;   
+    }
     
 }
