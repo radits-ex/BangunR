@@ -157,7 +157,7 @@ button:hover {
 @media (max-width:500px){
     .services{
         flex-direction: column;
-        width: auto;
+        width: 100vh;
     }
 
     .navigasi>li{
