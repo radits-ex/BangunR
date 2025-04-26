@@ -154,17 +154,15 @@ button:hover {
     width: auto;
 }
 
-@media (max-width:900px){
+@media (max-width:500px){
     .services{
         flex-direction: column;
+        width: auto;
     }
 
     .navigasi>li{
         padding: 5px;
     }
+
     
-    nav {
-        height: auto;
-        widht: auto;
-    }
 }
