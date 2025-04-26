@@ -157,19 +157,10 @@ button:hover {
 @media (max-width:500px){
     .services{
         flex-direction: column;
-        width: 100vh;
     }
 
     .navigasi>li{
         padding: 5px;
-    }
-    
-    .kon-welcome {
-        width: 0;    
-    }
-    
-    body {
-     width: 100vh;   
     }
     
 }
