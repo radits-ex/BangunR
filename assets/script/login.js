@@ -3,7 +3,7 @@ function masuk() {
     let password = document.getElementById("password").value;
     const konten = "konten.html"
     
-    if (username == "tio" && password == "admins"){
+    if (username == "Agus" && password == "admin"){
         window.location = konten
         alert('Login Berhasil!')
     }
