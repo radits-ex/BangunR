@@ -23,7 +23,7 @@
 
   .login-box {
     background-color: white;
-    width: 500px;
+    width: 200px;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.1);
@@ -39,7 +39,6 @@
   .input-group {
     text-align: left;
     margin-bottom: 20px;
-    height: 20px;
   }
 
   .input-group label {
